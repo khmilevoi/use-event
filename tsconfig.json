@@ -1,8 +1,14 @@
 {
   "compilerOptions": {
+    "moduleResolution": "Node",
+    "target": "ESNext",
     "strict": true,
     "skipLibCheck": true,
     "noImplicitAny": true,
     "strictBindCallApply": true,
-  }
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "declarationDir": "./dist"
+  },
+  "exclude": ["*.test.*"]
 }

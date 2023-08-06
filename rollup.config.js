@@ -1,16 +1,15 @@
-const { default: esbuild } = require("rollup-plugin-esbuild");
+const { default: swc } = require("@rollup/plugin-swc");
 const { default: dts } = require("rollup-plugin-dts");
 const name = require("./package.json").main.replace(/\.js$/, "");
 
 const bundle = config => ({
   ...config,
   input: "src/index.ts",
-  external: id => !/^[./]/.test(id)
 });
 
 export default [
   bundle({
-    plugins: [esbuild()],
+    plugins: [swc()],
     output: [
       {
         file: `${name}.js`,
