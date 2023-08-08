@@ -7,12 +7,8 @@ The `useEvent` hook takes advantage of `useRef` and `useCallback` to maintain ca
 
 ## Installation
 
-This is a React Hook and thus, the installation of React is required before using it.
-
-If you have not installed React yet, you can do so by running the following command in your terminal:
-
 ```sh
-npm install react
+npm i @khmilevoi/use-event
 ```
 Then, copy the `useEvent` function to your project.
 
@@ -20,7 +16,7 @@ Then, copy the `useEvent` function to your project.
 Here's an example of how to use the `useEvent` hook:
 
 ```jsx
-import { useEvent } from "<path-to-useEvent>";
+import { useEvent } from "@khmilevoi/use-event";
 
 // Define your callback
 const yourCallback = (arg1, arg2) => {
