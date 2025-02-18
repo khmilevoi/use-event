@@ -2,7 +2,7 @@
   "name": "@khmilevoi/use-event",
   "repository": "https://github.com/khmilevoi/use-event",
   "readme": "https://github.com/khmilevoi/use-event/blob/main/README.md",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "useEvent hook",
   "private": false,
   "main": "dist/index.js",
